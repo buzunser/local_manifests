@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="buzunser/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="pixel-12" />
+  <project name="buzunser/android_vendor_xiaomi_davinci" path="vendor/xiaomi/davinci" remote="github" revision="pixel-12" />
+  <project name="buzunser/android_vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="github" revision="pixel-12" />
+  <project name="buzunser/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" remote="github" revision="pixel-12.1" />
+  <project name="buzunser/device_xiaomi_davinci" path="device/xiaomi/davinci" remote="github" revision="pixel-12" />
+  <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="twelve" />
+</manifest>
