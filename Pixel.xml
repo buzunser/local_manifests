@@ -8,7 +8,6 @@
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/system/memory/lmkd" />
-  <remove-project name="packages_overlays_ThemeIcons" />
 
   <!-- Add new repositories -->
   <project path="external/zlib-ng" name="DavinciCodeOS/android_external_zlib-ng" remote="dcos-github" revision="sc-v2" />
