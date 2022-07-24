@@ -8,6 +8,12 @@
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/system/memory/lmkd" />
+  
+  <!-- Rust is outdated, add much more recent one -->
+  <remove-project name="platform/prebuilts/rust" />
+
+  <!-- More recent Rust -->
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" remote="aosp" clone-depth="1" revision="master" />
 
   <!-- Add new repositories -->
   <project path="external/zlib-ng" name="DavinciCodeOS/android_external_zlib-ng" remote="dcos-github" revision="sc-v2" />
