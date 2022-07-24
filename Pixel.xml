@@ -8,6 +8,7 @@
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="packages_overlays_ThemeIcons" />
   
   <!-- Rust is outdated, add much more recent one -->
   <remove-project name="platform/prebuilts/rust" />
@@ -18,6 +19,8 @@
   <!-- Add new repositories -->
   <project path="external/zlib-ng" name="DavinciCodeOS/android_external_zlib-ng" remote="dcos-github" revision="sc-v2" />
   <project path="system/memory/lmkd" name="YAAP/system_memory_lmkd" remote="dcos-github" revision="twelve" />
+  
+  <project path="packages/overlays/ThemedIcons" name="davincicodeos/packages_overlays_ThemedIcons" remote="dcos-gitlab" revision="12.1" />
   
   <project name="buzunser/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="pixel-12" />
   <project name="buzunser/android_vendor_xiaomi_davinci" path="vendor/xiaomi/davinci" remote="github" revision="pixel-12" />
