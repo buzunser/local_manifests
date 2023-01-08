@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="buzunser/pe_thirteen_device_xiaomi_davinci" path="device/xiaomi/davinci" remote="github" revision="thirteen" />
+  <project name="buzunser/pe_thirteen_android_vendor_xiaomi" path="vendor/xiaomi/davinci" remote="github" revision="thirteen" />
+  <project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="thirteen" />
+  <project name="ArianK16a/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" remote="github" revision="lineage-20.0" />
+
+  <project name="PixelExperience/packages_overlays_ThemeIcons" path="packages/overlays/ThemeIcons" remote="github" revision="thirteen-plus" />
+</manifest>
